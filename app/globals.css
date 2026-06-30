@@ -1,0 +1,105 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@tabler/icons@latest/tabler-icons.min.css');
+
+:root {
+  /* Background Colors */
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f8f9fa;
+  --color-background-tertiary: #f0f1f3;
+  
+  /* Border & Separator Colors */
+  --color-border-primary: #e0e0e0;
+  --color-border-secondary: #efefef;
+  --color-border-tertiary: #d9d9d9;
+  
+  /* Text Colors */
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #666666;
+  --color-text-tertiary: #999999;
+  --color-text-light: #cccccc;
+  
+  /* Chart Colors */
+  --color-chart-purple: #7C3AED;
+  --color-chart-blue: #0EA5E9;
+  --color-chart-amber: #F59E0B;
+  --color-chart-red: #EF4444;
+  --color-chart-green: #10B981;
+  --color-chart-pink: #EC4899;
+  --color-chart-violet: #8B5CF6;
+  --color-chart-cyan: #06B6D4;
+  --color-chart-orange: #F97316;
+  --color-chart-teal: #14B8A6;
+  
+  /* Alert Colors */
+  --color-alert-critical: #EF4444;
+  --color-alert-warning: #F59E0B;
+  --color-alert-info: #0EA5E9;
+  
+  /* Alert Backgrounds */
+  --color-alert-critical-bg: #FEF2F2;
+  --color-alert-critical-border: #FECACA;
+  --color-alert-warning-bg: #FFFBEB;
+  --color-alert-warning-border: #FDE68A;
+  --color-alert-info-bg: #EFF6FF;
+  --color-alert-info-border: #BFDBFE;
+  
+  /* Status Colors */
+  --color-status-open: #EF4444;
+  --color-status-partial: #F97316;
+  --color-status-investigating: #F59E0B;
+  --color-status-solved: #10B981;
+  --color-status-unsolved: #6B7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-primary);
+  line-height: 1.6;
+}
+
+/* Tabler Icons */
+.ti {
+  display: inline-block;
+  font-family: 'tabler-icons' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-secondary);
+}
